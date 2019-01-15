@@ -1,0 +1,59 @@
+
+
+.container {
+  text-align: center;
+}
+
+.row {
+  margin-top: 3em;
+}
+
+#rules {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+
+#title {
+  margin-top: 1.5em;
+}
+
+#def {
+  display: none;
+  margin-top: 3em;
+}
+
+#left {
+  margin-right: 5em;
+}
+
+#right {
+  margin-left: 5em;
+}
+
+#button {
+  width: 5em;
+  height: 2.5em;
+  border: 5px solid black;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 2.4em;
+  margin-left: 0.5em;
+}
+
+#button:hover{
+  background-color: #E6E6E6;
+}
+
+#history {
+  margin-top: 6em;
+}
+
+#victory {
+  margin-top: 3em;
+}
+
+.icon {
+  height: 100px;
+}
