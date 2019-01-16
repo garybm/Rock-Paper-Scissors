@@ -43,26 +43,33 @@ $(function() {
     //Nobody wins :(
     if((player1 - player2) === 0) {
       $("#victory").text("NOBODY WINS");
+      $('ol').append("<li>NOBODY WINS</li>");
     }
     else {
       //Somebody wins
       if(player1 === 1 && player2 === 2) {
         $("#victory").text("PLAYER2 WINS");
+        $('ol').append("<li>PLAYER2 WINS</li>");
       }
       else if(player1 === 1 && player2 === 3){
         $("#victory").text("PLAYER1 WINS");
+        $('ol').append("<li>PLAYER1 WINS</li>");
       }
       else if(player1 === 2 && player2 === 1){
         $("#victory").text("PLAYER1 WINS");
+        $('ol').append("<li>PLAYER1 WINS</li>");
       }
       else if(player1 === 2 && player2 === 3){
         $("#victory").text("PLAYER2 WINS");
+        $('ol').append("<li>PLAYER2 WINS</li>");
       }
       else if(player1 === 3 && player2 === 1){
         $("#victory").text("PLAYER2 WINS");
+        $('ol').append("<li>PLAYER2 WINS</li>");
       }
       else if(player1 === 3 && player2 === 2){
         $("#victory").text("PLAYER1 WINS");
+        $('ol').append("<li>PLAYER1 WINS</li>");
       }
     }
 
